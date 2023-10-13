@@ -123,3 +123,55 @@ input[type="checkbox"] {
   text-decoration-thickness: 2px;
 }
 
+
+@media screen and (max-width: 400px) {
+  .app {
+    width: 100%;
+    margin: 2rem auto;
+    padding: 0.5rem 0.5rem;
+  }
+
+  .todo-form {
+    padding: 1rem;
+  }
+
+  input {
+    padding: 1rem;
+    font-size: 0.8rem;
+    letter-spacing: 3px;
+  }
+
+  .input-btn {
+    padding: 10px 20px;
+    font-size: 0.8rem;
+  }
+
+  .output {
+    padding: 1rem;
+  }
+
+  .list {
+    margin-bottom: 5px;
+    font-size: 1rem;
+  }
+
+  .delete-btn {
+    font-size: 1rem;
+  }
+
+  input[type="checkbox"] {
+    height: 1rem;
+    width: 1rem;
+    margin-right: 0.5rem;
+  }
+
+  .selected {
+    text-decoration-thickness: 1px;
+  }
+
+  footer p {
+    padding: 0rem 1rem;
+    text-align: center;
+  }
+}
+
